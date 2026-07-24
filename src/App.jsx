@@ -1,7 +1,13 @@
+import Background from "./components/Background/Background";
 import Home from "./pages/Home";
 
 function App() {
-  return <Home />;
+  return (
+    <>
+      <Background />
+      <Home />
+    </>
+  );
 }
 
 export default App;
