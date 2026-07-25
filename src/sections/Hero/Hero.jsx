@@ -1,5 +1,6 @@
 import Container from "../../components/Container/Container";
-import profile from "../../assets/images/profile/profile.jpeg";
+import profile from "../../assets/images/profile/novoProfile.png";
+import TechCarousel from "../../components/TechCarousel/TechCarousel";
 
 function Hero() {
   return (
@@ -7,7 +8,7 @@ function Hero() {
       <Container>
         <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-16">
           {/* Lado esquerdo */}
-          <div>
+          <div className="lg:-translate-x-6 xl:-translate-x-15">
             <p className="text-sky-400 font-bold tracking-wide ">
               👋 Olá, eu sou
             </p>
@@ -35,27 +36,9 @@ function Hero() {
               </button>
             </div>
             <div className="mt-10 flex flex-wrap gap-2">
-              <span className="rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm text-gray-300">
-                React
-              </span>
-              <span className="rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm text-gray-300">
-                Node.js
-              </span>
-              <span className="rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm text-gray-300">
-                .NET
-              </span>
-              <span className="rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm text-gray-300">
-                SQL
-              </span>
-              <span className="rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm text-gray-300">
-                MongoDB
-              </span>
-              <span className="rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm text-gray-300">
-                Oracle
-              </span>
-              <span className="rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm text-gray-300">
-                Git
-              </span>
+              <div className="mt-12">
+                <TechCarousel />
+              </div>
             </div>
           </div>
 
