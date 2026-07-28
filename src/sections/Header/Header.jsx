@@ -31,8 +31,9 @@ function Header() {
         {/* Menu Desktop */}
         <nav className="hidden md:flex items-center gap-8">
           {navigation.map((item) => (
-            <button
+            <a
               key={item.title}
+              href={item.href}
               className="
         relative
         px-2
@@ -47,7 +48,7 @@ function Header() {
         hover:text-white
         hover:-translate-y-1
         hover:scale-105
-      "
+        "
             >
               {item.title}
 
@@ -65,7 +66,7 @@ function Header() {
           group-hover:w-full
         "
               />
-            </button>
+            </a>
           ))}
         </nav>
 
