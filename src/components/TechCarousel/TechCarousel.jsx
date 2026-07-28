@@ -36,6 +36,7 @@ export default function TechCarousel() {
       <div className="carousel-track">
         <TechList />
         <TechList />
+        <TechList />
       </div>
     </div>
   );
