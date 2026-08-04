@@ -1,9 +1,5 @@
 function Container({ children }) {
-  return (
-    <div className="mx-auto w-full max-w-7xl px-6 sm:px-8 lg:px-6">
-      {children}
-    </div>
-  );
+  return <div className="mx-auto w-full max-w-[1600px] px-8">{children}</div>;
 }
 
 export default Container;

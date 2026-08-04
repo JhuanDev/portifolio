@@ -13,11 +13,13 @@ function About() {
           </h2>
 
           <p className="mt-8 text-lg leading-9 text-gray-400">
-            Minha trajetória começou na Automação Industrial, onde desenvolvi
-            uma visão analítica voltada para processos e resolução de problemas.
-            Ao longo do tempo encontrei no desenvolvimento de software uma forma
-            de transformar essa lógica em soluções digitais, evoluindo
-            continuamente até atuar como Desenvolvedor Full Stack.
+            Minha trajetória começou com um simples cursinho na Rocketseat, onde
+            desenvolvi minha primeira pagina web e fiquei maravilhado por
+            conseguir transformar um simples código em um "site" funcional. Vejo
+            a tecnologia como meio, não como fim: no fundo, sou um resolvedor de
+            problemas. Ao longo da minha trajetória, encontrei no
+            desenvolvimento de software o caminho para transformar lógica em
+            soluções digitais completas.
           </p>
         </div>
 
