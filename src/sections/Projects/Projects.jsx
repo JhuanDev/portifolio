@@ -7,22 +7,25 @@ import deliveryImage from "../../assets/images/projects/delivery.PNG";
 
 function Projects() {
   return (
-    <section id="projects" className="py-32">
+    <section
+      id="projects"
+      className="relative py-32 before:pointer-events-none before:absolute before:left-1/2 before:top-24 before:h-64 before:w-96 before:-translate-x-1/2 before:rounded-full before:bg-sky-400/10 before:blur-3xl"
+    >
       <Container>
         {/* ======================================================== */}
         {/* Cabeçalho */}
         {/* ======================================================== */}
 
-        <div className="max-w-3xl">
-          <p className="font-semibold uppercase tracking-[0.25em] text-sky-400">
+        <div className="relative max-w-3xl">
+          <p className="font-semibold uppercase tracking-[0.25em] text-sky-300">
             Projetos
           </p>
 
-          <h2 className="mt-4 text-5xl font-black text-white">
+          <h2 className="mt-4 bg-gradient-to-r from-white to-sky-200 bg-clip-text text-5xl font-black text-transparent drop-shadow-[0_0_24px_rgba(125,211,252,.10)]">
             Alguns dos projetos que marcaram minha evolução.
           </h2>
 
-          <p className="mt-6 text-lg leading-8 text-gray-400">
+          <p className="mt-6 text-lg leading-8 text-slate-400">
             Desde os primeiros estudos até aplicações completas desenvolvidas
             para resolver necessidades reais.
           </p>
@@ -33,15 +36,15 @@ function Projects() {
         {/* ======================================================== */}
 
         <div className="mt-24">
-          <p className="text-sm font-semibold uppercase tracking-[0.30em] text-sky-400">
+          <p className="text-sm font-semibold uppercase tracking-[0.30em] text-sky-300">
             Aplicação Completa
           </p>
 
-          <h3 className="mt-3 text-4xl font-bold text-white">
+          <h3 className="mt-3 bg-gradient-to-r from-white to-sky-200 bg-clip-text text-4xl font-bold text-transparent drop-shadow-[0_0_20px_rgba(125,211,252,.08)]">
             Sistema de Registro de Presença
           </h3>
 
-          <p className="mt-5 max-w-4xl leading-8 text-gray-400">
+          <p className="mt-5 max-w-4xl leading-8 text-slate-400">
             Plataforma composta por um aplicativo mobile, uma API REST e um
             painel administrativo web, desenvolvidos para registrar presenças,
             gerenciar participantes e centralizar todas as informações em um
@@ -82,16 +85,16 @@ function Projects() {
         {/* Projetos de Estudo */}
         {/* ======================================================== */}
 
-        <div className="mt-28">
-          <p className="text-sm font-semibold uppercase tracking-[0.30em] text-sky-400">
+        <div className="mt-28 border-t border-white/10 pt-16">
+          <p className="text-sm font-semibold uppercase tracking-[0.30em] text-sky-300">
             Projetos de Estudo
           </p>
 
-          <h3 className="mt-3 text-4xl font-bold text-white">
+          <h3 className="mt-3 bg-gradient-to-r from-white to-sky-200 bg-clip-text text-4xl font-bold text-transparent drop-shadow-[0_0_20px_rgba(125,211,252,.08)]">
             Evolução durante os estudos
           </h3>
 
-          <p className="mt-5 max-w-3xl leading-8 text-gray-400">
+          <p className="mt-5 max-w-3xl leading-8 text-slate-400">
             Projetos desenvolvidos durante minha formação para consolidar
             conceitos fundamentais do desenvolvimento web.
           </p>
@@ -112,16 +115,16 @@ function Projects() {
         {/* Ferramentas */}
         {/* ======================================================== */}
 
-        <div className="mt-28">
-          <p className="text-sm font-semibold uppercase tracking-[0.30em] text-sky-400">
+        <div className="mt-28 border-t border-white/10 pt-16">
+          <p className="text-sm font-semibold uppercase tracking-[0.30em] text-sky-300">
             Ferramentas
           </p>
 
-          <h3 className="mt-3 text-4xl font-bold text-white">
+          <h3 className="mt-3 bg-gradient-to-r from-white to-sky-200 bg-clip-text text-4xl font-bold text-transparent drop-shadow-[0_0_20px_rgba(125,211,252,.08)]">
             Soluções para automação
           </h3>
 
-          <p className="mt-5 max-w-3xl leading-8 text-gray-400">
+          <p className="mt-5 max-w-3xl leading-8 text-slate-400">
             Algumas ferramentas desenvolvidas para resolver necessidades reais e
             automatizar tarefas do dia a dia.
           </p>
@@ -135,15 +138,15 @@ function Projects() {
             />
 
             <div className="flex flex-col justify-center">
-              <span className="text-sm font-semibold uppercase tracking-[0.30em] text-sky-400">
+              <span className="text-sm font-semibold uppercase tracking-[0.30em] text-sky-300">
                 Continue explorando
               </span>
 
-              <h4 className="mt-3 text-3xl font-bold leading-tight text-sky-200">
+              <h4 className="mt-3 bg-gradient-to-r from-white to-sky-200 bg-clip-text text-3xl font-bold leading-tight text-transparent drop-shadow-[0_0_18px_rgba(125,211,252,.08)]">
                 Estes são apenas alguns dos projetos que desenvolvi.
               </h4>
 
-              <p className="mt-6 leading-8 text-gray-400">
+              <p className="mt-6 leading-8 text-slate-400">
                 Ao longo da minha trajetória desenvolvi outras aplicações,
                 estudos e experimentos utilizando diferentes tecnologias. Se
                 quiser conhecer mais do meu trabalho, vale a pena explorar meu
