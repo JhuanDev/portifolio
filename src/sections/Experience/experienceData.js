@@ -2,7 +2,7 @@ const experienceData = [
   {
     company: "Itaguaí Construções Navais",
     role: "Aprendiz de Tecnologia da Informação",
-    period: "2025 • Atual",
+    period: "2025 • 2026",
 
     description:
       "Atuação voltada ao desenvolvimento de soluções internas e aplicações sob demanda. Durante esse período aprofundei meus conhecimentos em React, Node.js, Oracle, MongoDB e .NET, além de compreender na prática o ciclo de desenvolvimento de software dentro de um ambiente corporativo.",

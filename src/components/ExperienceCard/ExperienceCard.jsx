@@ -3,6 +3,7 @@ function ExperienceCard({ company, role, period, description, technologies }) {
     <article
       className="
         relative
+        h-full
         overflow-hidden
         rounded-xl
         border
@@ -31,17 +32,22 @@ function ExperienceCard({ company, role, period, description, technologies }) {
         "
       />
 
-      <div className="relative p-8">
-        <div className="flex flex-col gap-5 lg:flex-row lg:justify-between">
-          <div>
-            <h3 className="text-3xl font-bold text-white">{company}</h3>
+      <div className="relative flex h-full flex-col p-7">
+        {/* Cabeçalho */}
 
-            <p className="mt-2 text-lg text-sky-300">{role}</p>
+        <div className="flex items-start justify-between gap-3">
+          <div className="min-w-0">
+            <h3 className="text-2xl font-bold leading-tight text-white">
+              {company}
+            </h3>
+
+            <p className="mt-2 text-base text-sky-300">{role}</p>
           </div>
 
           <span
             className="
-              h-fit
+              shrink-0
+              whitespace-nowrap
               rounded-full
               border
               border-sky-400/20
@@ -56,9 +62,13 @@ function ExperienceCard({ company, role, period, description, technologies }) {
           </span>
         </div>
 
-        <p className="mt-8 leading-8 text-gray-400">{description}</p>
+        {/* Descrição */}
 
-        <div className="mt-8 flex flex-wrap gap-2">
+        <p className="mt-6 leading-7 text-gray-400">{description}</p>
+
+        {/* Tecnologias */}
+
+        <div className="mt-auto flex flex-wrap gap-2 pt-8">
           {technologies.map((tech) => (
             <span
               key={tech}
